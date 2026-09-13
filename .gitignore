@@ -40,6 +40,12 @@ yarn-error.*
 /ios
 /android
 
+# native build output (huge: NDK object files, per-ABI .so, gradle intermediates)
+**/android/build/
+**/android/.cxx/
+**/android/.gradle/
+**/ios/build/
+
 # personal / portfolio material, not part of the app
 portfolyo/
 .agents/
