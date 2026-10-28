@@ -49,3 +49,11 @@ yarn-error.*
 # personal / portfolio material, not part of the app
 portfolyo/
 .agents/
+
+# AI assistant instructions (local only)
+.claude/
+.codex/
+AGENTS.md
+CLAUDE.md
+**/AGENTS.md
+**/CLAUDE.md
